@@ -18,6 +18,7 @@
 [Limelight Art](https://www.limelight.art)
 
 ### Notes
+Pretty thoroughly tested but still could have bugs
 Only tested in VVVV 5.2
 
 ### ToDo
