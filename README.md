@@ -1,6 +1,6 @@
 # VL.Mapper
 ## Projection mapping for VVVV
-![](https://raw.githubusercontent.com/zekeadam/VL.Mapper/main/doc/img1.png)
+![Mapper UI](https://raw.githubusercontent.com/zekeadam/VL.Mapper/main/doc/img1.png)
 
 ### Features
 - Linear and bezier grid warping
@@ -12,7 +12,7 @@
 - Automatic backup every 5 minutes and keeping the last 100 saves in "documents\vvvv\mapper"
 - Overlay images in the mapper UI for reference
 
-![](https://raw.githubusercontent.com/zekeadam/VL.Mapper/main/doc/img2.png)
+![Soft edge masks](https://raw.githubusercontent.com/zekeadam/VL.Mapper/main/doc/img2.png)
 
 ### Sponsor
 [Limelight Art](https://www.limelight.art)
