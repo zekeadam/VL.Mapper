@@ -18,7 +18,7 @@
 [Limelight Art](https://www.limelight.art)
 
 ### Notes
-- Pretty thoroughly tested but still could have bugs
+- Pretty thoroughly tested but mapper still could have bugs. If you disable the mapper node and only use the cache and player nodes it should be very stable.
 - Only tested in VVVV 5.2
 
 ### ToDo
