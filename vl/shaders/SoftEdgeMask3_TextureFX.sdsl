@@ -1,0 +1,12 @@
+[Category("Filter")]
+[Summary("")]
+shader SoftEdgeMask3_TextureFX : FilterBase
+{
+    float gamma = 1;
+    
+    float4 Filter(float4 tex0col)
+    {
+        float c = pow(max((tex0col.r - 1) / (tex0col.r + tex0col.g - 2), tex0col.b), gamma);
+        return float4(c,c,c,1);
+    }
+};

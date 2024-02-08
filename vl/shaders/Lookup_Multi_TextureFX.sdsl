@@ -1,0 +1,13 @@
+[Category("Filter")]
+[Summary("")]
+shader Lookup_Multi_TextureFX : FilterBase
+{
+    float gamma = 1;
+
+    float4 Filter(float4 tex0col)
+    {
+        float4 uv = Texture2.Sample(Sampler0, streams.TexCoord);
+        float4 tex1 = Texture1.Sample(Sampler0, uv);
+        return lerp(float4(tex0col.xyz, 1), float4(tex1.xyz, 1), pow(tex1.a * uv.a, gamma));
+    }
+};

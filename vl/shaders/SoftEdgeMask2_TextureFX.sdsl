@@ -1,0 +1,22 @@
+[Category("Filter")]
+[Summary("")]
+shader SoftEdgeMask2_TextureFX : FilterBase
+{
+    int step;
+    float stepSize = .01;
+
+    float4 Filter(float4 tex0col)
+    {
+        if(tex0col.b > 0 || (tex0col.r > 0 && tex0col.g > 0)) return tex0col;
+        float4 color = tex0col;
+
+        float2 directions[8] = {float2(1,0), float2(1,1), float2(0,1), float2(-1,1), float2(-1,0), float2(-1,-1), float2(0,-1), float2(1,-1)};
+        for(int i = 0; i < 8 ; i++){
+            float4 c = Texture0.Sample(Sampler0, streams.TexCoord + directions[i] * stepSize);
+            if(color.r == 0 && c.r > 0) color.r = step;
+            if(color.g == 0 && c.g > 0) color.g = step;
+        }
+
+        return color;
+    }
+};

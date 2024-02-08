@@ -1,0 +1,11 @@
+[TextureSource]
+[Category("Source")]
+[Summary("UV coordinates")]
+[OutputFormat("R32G32B32A32_Float")]
+shader DefaultUV_TextureFX : TextureFX
+{
+    stage override float4 Shading()
+    {
+        return float4(streams.TexCoord.x, streams.TexCoord.y, 0, 1);
+    }
+};

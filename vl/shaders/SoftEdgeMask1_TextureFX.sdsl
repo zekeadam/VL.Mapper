@@ -1,0 +1,14 @@
+[Category("Filter")]
+[Summary("")]
+shader SoftEdgeMask1_TextureFX : FilterBase
+{
+    float stepSize = .01;
+    
+    float4 Filter(float4 tex0col)
+    {
+        float2 tc = streams.TexCoord;
+        if(tex0col.r > 0) return float4(0,1,1,1);
+        if(tc.x < stepSize || tc.x > 1-stepSize || tc.y < stepSize || tc.y > 1-stepSize) return float4(1,0,0,1);
+        return float4(0,0,0,1);
+    }
+};
