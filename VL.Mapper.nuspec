@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.Mapper</id>
+    <version>0.1</version>
+    <title>VL.Mapper</title>
+    <authors>Adam Zeke</authors>
+    <owners>Adam Zeke</owners>
+    <projectUrl>https://github.com/zekeadam/VL.Mapper</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Projection mapping for VVVV</summary>
+    <description>Projection mapping for VVVV</description>
+    <tags>mapping</tags>
+	<license type="expression">GPL-3.0</license>
+  </metadata>
+  <files>
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\vl\**" target="vl\" exclude="" />
+    <file src="..\help\**" target="help\" exclude="" />
+  </files>
+</package>
