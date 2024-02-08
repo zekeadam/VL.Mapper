@@ -40,3 +40,8 @@
 - [VL.ImGui](https://www.nuget.org/packages/VL.ImGui)
 - [VL.Stride](https://www.nuget.org/packages/VL.Stride)
 - [VL.Skia](https://www.nuget.org/packages/VL.Skia)
+
+### Installing
+```
+nuget install VL.Mapper
+```
