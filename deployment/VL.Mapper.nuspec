@@ -11,7 +11,7 @@
     <summary>Projection mapping for VVVV</summary>
     <description>Projection mapping for VVVV</description>
     <tags>mapping</tags>
-	<license type="expression">GPL-3.0</license>
+	<license type="expression">GPL-3.0-only</license>
   </metadata>
   <files>
     <file src="..\*.vl" target="" exclude="" />
