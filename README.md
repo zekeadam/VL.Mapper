@@ -1,5 +1,5 @@
 # VL.Mapper
-## Projection mapping for VVVV
+## Projection mapping tool for ![VVVV Gamma](https://visualprogramming.net/)
 ![Mapper UI](https://raw.githubusercontent.com/zekeadam/VL.Mapper/main/doc/img1.png)
 
 ### Features
@@ -19,7 +19,7 @@
 
 ### Notes
 - Pretty thoroughly tested but mapper still could have bugs. If you disable the mapper node and only use the cache and player nodes it should be very stable.
-- Only tested in VVVV 5.2
+- Thoroughly tested with VVVV 5.2 but should work on 6.2 too
 
 ### ToDo
 - Cleanup
@@ -45,3 +45,6 @@
 ```
 nuget install VL.Mapper
 ```
+
+### Demo video
+https://youtu.be/nU4qOoorldA
