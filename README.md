@@ -1,5 +1,5 @@
 # VL.Mapper
-## Projection mapping tool for ![VVVV Gamma](https://visualprogramming.net/)
+## Projection mapping tool for [VVVV Gamma](https://visualprogramming.net/)
 ![Mapper UI](https://raw.githubusercontent.com/zekeadam/VL.Mapper/main/doc/img1.png)
 
 ### Features
@@ -17,12 +17,19 @@
 ### Sponsor
 [Limelight Art](https://www.limelight.art)
 
+### Demo video
+https://youtu.be/nU4qOoorldA
+
+### Installing
+```
+nuget install VL.Mapper
+```
+
 ### Notes
 - Pretty thoroughly tested but mapper still could have bugs. If you disable the mapper node and only use the cache and player nodes it should be very stable.
-- Thoroughly tested with VVVV 5.2 but should work on 6.2 too
+- Tested with VVVV 5.2 but should work with 6.2 too.
 
 ### ToDo
-- Cleanup
 - Soft edge mask shader uses unnecessary amount of RAM
 - Show grid on output
 - Snapping
@@ -40,11 +47,3 @@
 - [VL.ImGui](https://www.nuget.org/packages/VL.ImGui)
 - [VL.Stride](https://www.nuget.org/packages/VL.Stride)
 - [VL.Skia](https://www.nuget.org/packages/VL.Skia)
-
-### Installing
-```
-nuget install VL.Mapper
-```
-
-### Demo video
-https://youtu.be/nU4qOoorldA
