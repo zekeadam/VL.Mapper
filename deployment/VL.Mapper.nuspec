@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Mapper</id>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
     <title>VL.Mapper</title>
     <authors>Adam Zeke</authors>
     <owners>Adam Zeke</owners>
@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Projection mapping for VVVV</summary>
     <description>Projection mapping for VVVV</description>
-    <tags>mapping</tags>
+    <tags>vvvv;vl;mapping;projection;warp</tags>
 	<license type="expression">GPL-3.0-only</license>
   </metadata>
   <files>
