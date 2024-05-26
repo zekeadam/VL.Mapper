@@ -362,6 +362,42 @@
                 <Pin Id="LEblKFRd3QALTJMrURxoe7" Name="Maximum" Kind="InputPin" DefaultValue="10000, 10000" />
                 <Pin Id="S9ohyZl0x91M9ZKcuZMUJ5" Name="Output" Kind="OutputPin" />
               </Node>
+              <Node Bounds="614,467,45,19" Id="Jx53tXMDMzvO4cqIpEKCa8">
+                <p:NodeReference LastCategoryFullName="Primitive.Int2" LastDependency="VL.CoreLib.vl" OverloadStrategy="AllPinsThatAreNotCommon">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <FullNameCategoryReference ID="Primitive.Int2" />
+                  <Choice Kind="OperationCallFlag" Name="Clamp" />
+                  <PinReference Kind="InputPin" Name="Value">
+                    <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="TypeFlag" Name="Int2" />
+                    </p:DataTypeReference>
+                  </PinReference>
+                  <PinReference Kind="InputPin" Name="Min">
+                    <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="TypeFlag" Name="Int2" />
+                    </p:DataTypeReference>
+                  </PinReference>
+                  <PinReference Kind="InputPin" Name="Max">
+                    <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="TypeFlag" Name="Int2" />
+                    </p:DataTypeReference>
+                  </PinReference>
+                  <PinReference Kind="OutputPin" Name="Output" ParameterModifier="ref">
+                    <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="TypeFlag" Name="Int2" />
+                    </p:DataTypeReference>
+                  </PinReference>
+                  <PinReference Kind="OutputPin" Name="Output">
+                    <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                      <Choice Kind="TypeFlag" Name="Int2" />
+                    </p:DataTypeReference>
+                  </PinReference>
+                </p:NodeReference>
+                <Pin Id="RFxrd67qZhIPkkTOGuaqfp" Name="Value" Kind="InputPin" />
+                <Pin Id="H3sEj8BeC1MM3ouFJlcEeu" Name="Min" Kind="InputPin" />
+                <Pin Id="RkyAJdj0HlAOpiwfk7STXq" Name="Max" Kind="InputPin" DefaultValue="4, 4" />
+                <Pin Id="FMzqiQjYH2hLTkkZBFYVi4" Name="Output" Kind="OutputPin" />
+              </Node>
             </Canvas>
             <ProcessDefinition Id="Nwm11OCh3iSOUAGiWb5LEl" IsHidden="true">
               <Fragment Id="DgYp5DJEGqsMKiPMUpKBJI" Patch="TvoljdWMxgqLz4s9WWZDuQ" Enabled="true" />
@@ -472,7 +508,6 @@
             <Link Id="E3VhhXlCwzULyxQm0TvGi0" Ids="CNSZSFaURXULtIbyW7PDkn,DVFGKuc8WV9M42MsIaowrf" IsHidden="true" />
             <Link Id="VNBYv1zSDvcLnwsr7RSZiz" Ids="FcIgzh4lTYzQDi8UU2xJFq,CNSZSFaURXULtIbyW7PDkn" />
             <Link Id="Oopbpq7kjwKOO73w02uAdi" Ids="BMiOdFTRbfXMKeBRAwdNbj,Vse0T7tf5VcL1PBC45PQ5L" IsHidden="true" />
-            <Link Id="UuuK2X6MzCiOQLM47s9wA5" Ids="Vse0T7tf5VcL1PBC45PQ5L,NicrrXeFwvNNZRSONtgoNV" />
             <Link Id="Sw5erIVw8DOMES1t8sLPMy" Ids="BJFIEiI9pBPNZNnQjUZkTe,Dl8QYvJqNj6LG8C26NIMXa" IsHidden="true" />
             <Link Id="I8Nr46V9MSXL8lqapttRjZ" Ids="FcIgzh4lTYzQDi8UU2xJFq,BJFIEiI9pBPNZNnQjUZkTe" />
             <Link Id="KiZ7Q8i8NT6QTjEJRwVxn7" Ids="DIZjKwGcOSxNmsvYH6fHrv,B80gCXmwZ7YM6ZuU1oXS47" />
@@ -747,6 +782,8 @@
               <Pin Id="BDHPpe4cOisO0WvNfpD3UH" Name="Disabled" Kind="OutputPin" />
             </Patch>
             <Link Id="PBK4Xgvq6tbO9sARnth12V" Ids="S9ohyZl0x91M9ZKcuZMUJ5,FKsE9T7TWIFQbUn8qklBY7" />
+            <Link Id="D8vAZraAXnBMTbrO6MlcvF" Ids="Vse0T7tf5VcL1PBC45PQ5L,RFxrd67qZhIPkkTOGuaqfp" />
+            <Link Id="BOcvK3Pl57rMpVqDkeXOku" Ids="FMzqiQjYH2hLTkkZBFYVi4,NicrrXeFwvNNZRSONtgoNV" />
           </Patch>
         </Node>
         <!--
