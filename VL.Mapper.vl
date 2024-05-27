@@ -1031,6 +1031,7 @@
                             <Choice Kind="OperationCallFlag" Name="GetId" />
                           </p:NodeReference>
                           <Pin Id="Fe1lZxPGbvWQQoB0s58973" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="KL5AmSJHktzOrcLwu1O2ES" Name="Output" Kind="OutputPin" />
                           <Pin Id="Gpxjzj4Y3PqO0lBpBtQcsk" Name="Id" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="2111,1047,55,19" Id="FD6CncSOJ2hLxaPGBquO3e">
@@ -1051,6 +1052,7 @@
                             <Choice Kind="OperationCallFlag" Name="GetHidden" />
                           </p:NodeReference>
                           <Pin Id="U47BLB7nZ21Pjl8gLJqTBN" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="TEBRAyVjo2cPk4B0hnUDpP" Name="Output" Kind="OutputPin" />
                           <Pin Id="LfxtHnKOfJIO3SqQQnwJ4C" Name="Hidden" Kind="OutputPin" />
                         </Node>
                         <Link Id="K9m33bhs7gFMXszl1TXVyE" Ids="NBCDWGckA3VN2KCW4mRUKL,U47BLB7nZ21Pjl8gLJqTBN" />
@@ -1093,6 +1095,7 @@
                             <Choice Kind="OperationCallFlag" Name="GetMaskGridId" />
                           </p:NodeReference>
                           <Pin Id="VSxtEDVrLQcOgWpg7FUsFo" Name="Input" Kind="StateInputPin" />
+                          <Pin Id="BfCGHUBAJPwPm1y0XMZkFV" Name="Output" Kind="OutputPin" />
                           <Pin Id="T7PHYvU8KdeN9bCrV6FKC6" Name="MaskGridId" Kind="OutputPin" />
                         </Node>
                         <Link Id="NbHsJxLDQFYNu6RJX4Kqm9" Ids="NBCDWGckA3VN2KCW4mRUKL,VSxtEDVrLQcOgWpg7FUsFo" />
@@ -1168,6 +1171,7 @@
                                 <Choice Kind="OperationCallFlag" Name="GetMaskGridId" />
                               </p:NodeReference>
                               <Pin Id="LOfmP5ySBQyOlNYadKeXhO" Name="Input" Kind="StateInputPin" />
+                              <Pin Id="CvGOuaXqaa1PyznkmXK216" Name="Output" Kind="OutputPin" />
                               <Pin Id="T2nODpvrH9nMcLGx922MoT" Name="MaskGridId" Kind="OutputPin" />
                             </Node>
                             <Pin Id="UzvaJ3tdC9xOQVhQrZTA6K" Name="Input 1" Kind="InputPin" />
@@ -1563,6 +1567,7 @@
                               <Pin Id="CIpqt8mzcJcM1GNsN4ARcw" Name="Style" Kind="InputPin" />
                               <Pin Id="Vj4ecD9GCMVPY1SErItFwa" Name="Context" Kind="OutputPin" />
                             </Node>
+                            <Patch Id="POJAFkaWbdmLVGQc5uEgRI" Name="Dispose" />
                           </Patch>
                           <Pin Id="NnT6aYyEOvxNYL8FHElMUx" Name="Node Context" Kind="InputPin" IsHidden="true" />
                           <Pin Id="UH6qaiMLvHyPLtjuHeOBvY" Name="Context" Kind="InputPin" />
@@ -1587,6 +1592,7 @@
                         <ControlPoint Id="LdjYoyatAulPZdSzFRfIMS" Bounds="1524,1197" />
                         <ControlPoint Id="BR27D70BAVeQVfRjulzpkC" Bounds="1524,980" />
                         <ControlPoint Id="EDi1Kmb3vmYPNq0LsLDXXQ" Bounds="1650,980" />
+                        <Patch Id="ECCHPhyOCixO1k3q0S1ro4" Name="Dispose" />
                       </Patch>
                     </Node>
                     <Pad Id="HssNrTbNFxvPxdyfPpYeM1" Comment="Size" Bounds="1622,790,35,28" ShowValueBox="true" isIOBox="true" Value="2, 0.26">
@@ -1868,6 +1874,7 @@
                           <Pin Id="PsQVWZl8Rn8NU4oqaPZoJc" Name="Context" Kind="OutputPin" />
                           <Pin Id="VdE87poMJvGPLMDbdrq6se" Name="Value" Kind="OutputPin" />
                         </Node>
+                        <Patch Id="TWBdX6cNouwLaEHEetEDTO" Name="Dispose" />
                       </Patch>
                     </Node>
                     <Node Bounds="1788,746,110,19" Id="BVPrzMYwBSsLDMEz61lkya">
@@ -2725,7 +2732,7 @@
                             <Pin Id="NaEq5RmHSHHPaEm4b7CPTI" Name="Output" Kind="StateOutputPin" />
                           </Node>
                           <ControlPoint Id="SY8rnTcySYgMVA2UW8VMok" Bounds="1465,723" />
-                          <Node Bounds="1408,599,105,19" Id="RhWBa1wTISHND3VDNYniVo">
+                          <Node Bounds="1408,599,225,19" Id="RhWBa1wTISHND3VDNYniVo">
                             <p:NodeReference LastCategoryFullName="Mapper.GUI" LastDependency="VL.Mapper.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="ProcessAppFlag" Name="WDualNumeric" />
@@ -2736,12 +2743,12 @@
                             <Pin Id="NdXElQcDrkCNMzoA8a76FH" Name="Label 2" Kind="InputPin" DefaultValue="Height" />
                             <Pin Id="JHDLRKS8PRsMb06i6m1gln" Name="Channel 1" Kind="InputPin" />
                             <Pin Id="IiWiQDzSIDmN0WuamrzwfC" Name="Channel 2" Kind="InputPin" />
-                            <Pin Id="RbTSq9JIgjhNcz7HNRVqoa" Name="Clamp 1" Kind="InputPin" />
-                            <Pin Id="CzU6HGXZ7j6OxcljQgQQZO" Name="Minimum 1" Kind="InputPin" />
-                            <Pin Id="AspPCYfaDtyOD8HsvX2wGr" Name="Maximum 1" Kind="InputPin" />
-                            <Pin Id="OAqZ0N4Vi1vOiuyZgQ4wkg" Name="Clamp 2" Kind="InputPin" />
-                            <Pin Id="QX2ULvHljOzNSycnO1kXO1" Name="Minimum 2" Kind="InputPin" />
-                            <Pin Id="FEiVpWQLmAIMOirgBYaESN" Name="Maximum 2" Kind="InputPin" />
+                            <Pin Id="RbTSq9JIgjhNcz7HNRVqoa" Name="Clamp 1" Kind="InputPin" DefaultValue="True" />
+                            <Pin Id="CzU6HGXZ7j6OxcljQgQQZO" Name="Minimum 1" Kind="InputPin" DefaultValue="10" />
+                            <Pin Id="AspPCYfaDtyOD8HsvX2wGr" Name="Maximum 1" Kind="InputPin" DefaultValue="10000" />
+                            <Pin Id="OAqZ0N4Vi1vOiuyZgQ4wkg" Name="Clamp 2" Kind="InputPin" DefaultValue="True" />
+                            <Pin Id="QX2ULvHljOzNSycnO1kXO1" Name="Minimum 2" Kind="InputPin" DefaultValue="10" />
+                            <Pin Id="FEiVpWQLmAIMOirgBYaESN" Name="Maximum 2" Kind="InputPin" DefaultValue="10000" />
                             <Pin Id="V2X9xTWVr76PlfhCJpwRC3" Name="Enabled" Kind="InputPin" />
                             <Pin Id="UnP6ilN7VZUOt8u7VFNm2q" Name="Context" Kind="OutputPin" />
                             <Pin Id="FrpvcpWz3BAMu31Ifv33tI" Name="Output" Kind="OutputPin" />
@@ -2966,7 +2973,7 @@
                             <Pin Id="DHJTAmFI1bbMHkn3p6tHhu" Name="Size" Kind="OutputPin" />
                           </Node>
                           <ControlPoint Id="FuKHykvlTsELSUQ33b1gVH" Bounds="2528,819" />
-                          <Node Bounds="2526,841,85,26" Id="Ed3NI0iyLvmNC8q0dOPLTS">
+                          <Node Bounds="2526,841,105,26" Id="Ed3NI0iyLvmNC8q0dOPLTS">
                             <p:NodeReference LastCategoryFullName="Main.GUIState" LastDependency="VL.GuiState.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <CategoryReference Kind="RecordType" Name="GUIState" />
@@ -3001,7 +3008,7 @@
                             <Pin Id="KSSQzZI1E0lNWYyp7aDkvq" Name="Output" Kind="OutputPin" />
                             <Pin Id="BJrjMKgbGHaLa3qoSVMaJ9" Name="Value" Kind="OutputPin" />
                           </Node>
-                          <Node Bounds="1854,665,105,19" Id="L0ZqOicwzQYNrxmw17oTPs">
+                          <Node Bounds="1854,665,225,19" Id="L0ZqOicwzQYNrxmw17oTPs">
                             <p:NodeReference LastCategoryFullName="Mapper.GUI" LastDependency="VL.Mapper.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="ProcessAppFlag" Name="WDualNumeric" />
@@ -3120,7 +3127,7 @@
                               <Item>Linear</Item>
                             </p:Value>
                           </Pad>
-                          <Node Bounds="1854,854,65,19" Id="M1YlWPYT1i3Pczp2teAZqg">
+                          <Node Bounds="1854,854,125,19" Id="M1YlWPYT1i3Pczp2teAZqg">
                             <p:NodeReference LastCategoryFullName="Mapper.GUI" LastDependency="VL.Mapper.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="ProcessAppFlag" Name="WNumeric (Intrenal)" />
@@ -3129,9 +3136,9 @@
                             <Pin Id="Ttg8NxFuC6zOTNzfkL4K7f" Name="Context" Kind="InputPin" />
                             <Pin Id="OR5S0DCjVJkPSJWPWS215o" Name="Label" Kind="InputPin" DefaultValue="Source" />
                             <Pin Id="UgUKEvxFCl8NeCN5by5shH" Name="Channel" Kind="InputPin" />
-                            <Pin Id="Ub2cgRrYUJALv1wVnkDC0f" Name="Clamp" Kind="InputPin" />
+                            <Pin Id="Ub2cgRrYUJALv1wVnkDC0f" Name="Clamp" Kind="InputPin" DefaultValue="True" />
                             <Pin Id="VDrowDVcCl4OWzhcWGJ68r" Name="Minimum" Kind="InputPin" />
-                            <Pin Id="FKvEmSoUhjrNAjCo2HZS1P" Name="Maximum" Kind="InputPin" />
+                            <Pin Id="FKvEmSoUhjrNAjCo2HZS1P" Name="Maximum" Kind="InputPin" DefaultValue="1000" />
                             <Pin Id="AZj7S1nXkXJNidv6vjc4n7" Name="Enabled" Kind="InputPin" />
                             <Pin Id="OVGALVX0hHiLv069aKsy6K" Name="Context" Kind="OutputPin" />
                             <Pin Id="FgY7izkDKV8QNFgvdz2boV" Name="Output" Kind="OutputPin" />
