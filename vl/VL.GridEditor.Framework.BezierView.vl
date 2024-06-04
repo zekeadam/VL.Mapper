@@ -1735,7 +1735,7 @@
                         <Pin Id="UsB5xWpcHWqMlLyQrEUlY3" Name="Color" Kind="InputPin" DefaultValue="0.92488265, 0, 0, 1" />
                         <Pin Id="MUTxlI1ReRsLaakctTTbL1" Name="Line Height in em" Kind="InputPin" />
                         <Pin Id="MO9Iq9NtrFWOtB3VZe7OVE" Name="Horizontal Alignment" Kind="InputPin" DefaultValue="Center" />
-                        <Pin Id="NbDzZgm9a8nPY0GzeXlmHp" Name="Vertical Alignment" Kind="InputPin" DefaultValue="Bottom" />
+                        <Pin Id="NbDzZgm9a8nPY0GzeXlmHp" Name="Vertical Alignment" Kind="InputPin" DefaultValue="Center" />
                         <Pin Id="Teh44Hd3NYJPDT2UZqxT6z" Name="Show Helpers" Kind="InputPin" />
                         <Pin Id="NbbQ0EklYNtPMHduWjoUED" Name="Output" Kind="OutputPin" />
                       </Node>
