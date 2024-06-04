@@ -564,7 +564,7 @@
                 <Link Id="JqvUw2VIMPhL6hh4CnryAC" Ids="JwT9BzKQJr7OHOSku5Gph8,Mx6UQ1KHglCL2FLC66KGyr" />
               </Patch>
             </Node>
-            <Pad Id="LNhCB6kusHXN4iZSalVyom" Comment="Geo Resolution" Bounds="1213,969,35,28" ShowValueBox="true" isIOBox="true" Value="51, 51">
+            <Pad Id="LNhCB6kusHXN4iZSalVyom" Comment="Geo Resolution" Bounds="1213,969,35,28" ShowValueBox="true" isIOBox="true" Value="21, 21">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Int2" />
               </p:TypeAnnotation>
