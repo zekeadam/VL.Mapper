@@ -27,14 +27,19 @@ nuget install VL.Mapper
 
 ### Notes
 - Pretty thoroughly tested but mapper still could have bugs. If you disable the mapper node and only use the cache and player nodes it should be very stable.
-- Tested with VVVV 5.2 but should work with 6.2 too.
+- Tested with VVVV 5.2 but should work with 6.x too.
+
+### Changelog
+- 0.2.0 - Keep grid shape when changing subdivisions
+- 0.1.2 - Fixed saving/loading not working on some systems
+- 0.1.1 - Help patch
+- 0.1.0 - Initial release 
 
 ### ToDo
 - Soft edge mask shader uses unnecessary amount of RAM
 - Show grid on output
 - Snapping
 - More robust undo
-- Keep grid shape when changing divisions
 - Insert grid lines
 - Autosave only if changed
 - Input image cropping
