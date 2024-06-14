@@ -11,11 +11,13 @@
     <summary>Projection mapping tool for VVVV</summary>
     <description>Projection mapping tool for VVVV</description>
     <tags>vvvv;vl;mapping;projection;warp</tags>
+    <readme>docs\README.md</readme>
 	<license type="expression">GPL-3.0-only</license>
   </metadata>
   <files>
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\vl\**" target="vl\" exclude="" />
     <file src="..\help\**" target="help\" exclude="" />
+    <file src="..\README.md" target="docs\" />
   </files>
 </package>
