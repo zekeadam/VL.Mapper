@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="B1lWyFBoZ2bMtohRvpNzSy" LanguageVersion="2024.6.3" Version="0.128">
-  <NugetDependency Id="IMZrCV5YDlYNyy4hF1jf0i" Location="VL.CoreLib" Version="2024.6.3" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="B1lWyFBoZ2bMtohRvpNzSy" LanguageVersion="2024.6.5" Version="0.128">
+  <NugetDependency Id="IMZrCV5YDlYNyy4hF1jf0i" Location="VL.CoreLib" Version="2024.6.5" />
   <Patch Id="I9DJCN2WFyHNe6jCStjRlP">
     <Canvas Id="OFOifh0seqoMTmL2or8j6E" DefaultCategory="Mapper.Warp.Advanced" CanvasType="FullCategory">
       <!--
@@ -104,7 +104,6 @@
                       <Pin Id="OMepu502YSaP8f3SXoylQS" Name="Format" Kind="InputPin" />
                       <Pin Id="Lxtaur2vScsOusu17tluTl" Name="Force" Kind="InputPin" />
                       <Pin Id="OvMSZPUcvDXNaTOKYrXpL6" Name="Output" Kind="OutputPin" />
-                      <Pin Id="HDfrCEdrSthNJpMco2zB3x" Name="Geo Resolution" Kind="InputPin" />
                     </Node>
                     <Pad Id="V1NUhyxavmfQAf5liUYfzp" Bounds="749,854">
                       <p:Value />
@@ -172,7 +171,6 @@
                       <Pin Id="G80JaTVvU30NDMZ92PONlU" Name="Input" Kind="InputPin" />
                       <Pin Id="N5fm1KHVv0rMi5biuZOmxb" Name="Output Size" Kind="InputPin" />
                       <Pin Id="IdWv2WOERMgMnQFTX1rbNJ" Name="Grid" Kind="InputPin" />
-                      <Pin Id="C3Sh4iwHqv9Na8K4oefcEH" Name="Geo Resolution" Kind="InputPin" />
                       <Pin Id="KMudPBSHsvoMJW2jE4wLjg" Name="Force" Kind="InputPin" />
                       <Pin Id="SZTJ6dPEUgANNCr0dloQFd" Name="Output" Kind="OutputPin" />
                       <Pin Id="Ucrhcs7vwJoM1rBfYwBmxA" Name="Has Changed" Kind="OutputPin" />
@@ -186,7 +184,6 @@
                       <Pin Id="B9IipeZU0lNOe06HLneLnE" Name="Texture" Kind="InputPin" />
                       <Pin Id="Tkx2vu4jq6pQShU6A7NXiG" Name="Masks" Kind="InputPin" />
                       <Pin Id="NigorRYW1UmPkTGEJ1jkN2" Name="Output Size" Kind="InputPin" />
-                      <Pin Id="BvafWSpbnqGMOVxZctJivr" Name="Geo Resolution" Kind="InputPin" />
                       <Pin Id="J48hM1aEf3fPM1en7CdK1E" Name="Texture" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="1086,885,60,19" Id="MQ5zZtIUREGOo13WQCheRZ">
@@ -232,7 +229,6 @@
                       <Pin Id="BXZb0jIs0yXLPWaHBq9IWh" Name="Texture" Kind="InputPin" />
                       <Pin Id="QoIrxGLysvRMKsx7gZ8u9W" Name="Masks" Kind="InputPin" />
                       <Pin Id="BcXCjDf2mU2QMqxSdbf1Tx" Name="Output Size" Kind="InputPin" />
-                      <Pin Id="VITMAkaI3OgLK7xxcShtpn" Name="Geo Resolution" Kind="InputPin" />
                       <Pin Id="FXWOVUylj1qQYZDnUKDitr" Name="Texture" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="931,1027,80,19" Id="H9yvPfm0NxSPvGuEWQjHsi">
@@ -564,11 +560,6 @@
                 <Link Id="JqvUw2VIMPhL6hh4CnryAC" Ids="JwT9BzKQJr7OHOSku5Gph8,Mx6UQ1KHglCL2FLC66KGyr" />
               </Patch>
             </Node>
-            <Pad Id="LNhCB6kusHXN4iZSalVyom" Comment="Geo Resolution" Bounds="1213,969,35,28" ShowValueBox="true" isIOBox="true" Value="21, 21">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                <Choice Kind="TypeFlag" Name="Int2" />
-              </p:TypeAnnotation>
-            </Pad>
             <Node Bounds="1477,1496,105,26" Id="REUC0jQE3DrPOxU8SYIwpP">
               <p:NodeReference LastCategoryFullName="Mapper.GUI.GUIState" LastDependency="VL.GuiState.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -1189,7 +1180,6 @@
                         <ControlPoint Id="T7D18bpucTBPZL0HzjVfv5" Bounds="1045,573" Alignment="Top" />
                         <ControlPoint Id="RqY9w1lY3QWMcmvkRh355b" Bounds="1038,1041" Alignment="Bottom" />
                         <ControlPoint Id="G9UFA42dWlIPJFEpumVhAo" Bounds="1206,573" Alignment="Top" />
-                        <ControlPoint Id="P1rPM3kk0f8MSgmN1GFBCV" Bounds="1362,573" Alignment="Top" />
                         <ControlPoint Id="SxJcl7IlsaTMOtXnizw5Az" Bounds="1076,573" Alignment="Top" />
                         <ControlPoint Id="GLX8TvzXgF3OqCUi0yc9IQ" Bounds="1389,573" Alignment="Top" />
                         <Patch Id="RZ1YF6V2I8DMZxup6rqdp4" ManuallySortedPins="true">
@@ -1306,7 +1296,6 @@
                             <Pin Id="A0NBfhfWzVNQS9Z432iRtS" Name="Format" Kind="InputPin" DefaultValue="R16G16B16A16_Float" />
                             <Pin Id="PNIN70mHwS8MW5FFg2iEjd" Name="Force" Kind="InputPin" DefaultValue="True" />
                             <Pin Id="KK4ihc63gdXOZNvzHu5wB2" Name="Output" Kind="OutputPin" />
-                            <Pin Id="HUwAD2S2pqMOPkzWBIgF6C" Name="Geo Resolution" Kind="InputPin" />
                           </Node>
                           <Node Bounds="1204,591,45,19" Id="S7JO1avaFlhOrzQSGz7X1v">
                             <p:NodeReference LastCategoryFullName="Stride.Textures.Source" LastDependency="VL.Stride.TextureFX.vl">
@@ -1463,7 +1452,6 @@
                   </Node>
                   <ControlPoint Id="TyWONwqrX7gOQ7NRljVyhI" Bounds="1104,395" />
                   <ControlPoint Id="D8u0Ncsmv2rNusEkBaNsVp" Bounds="1233,395" />
-                  <ControlPoint Id="BGoCX3hfb9fPjNbzd1KTyd" Bounds="1353,395" />
                   <Node Bounds="1246,429,76,19" Id="QjlTmZ6mXnuMd4b0s4gDfb">
                     <p:NodeReference LastCategoryFullName="Mapper.Grid.EditableGrids" LastDependency="VL.GridEditor.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -1526,13 +1514,11 @@
                 <Link Id="UjtqtpZqpufOZIQnMNcQtr" Ids="SQcO4Mk4tCXNKUEFmMZqz0,TyWONwqrX7gOQ7NRljVyhI" IsHidden="true" />
                 <Link Id="P5v8gNR3fleLmcLbxmfu36" Ids="CcYKE57jMfkMg3F2dKGNVg,D8u0Ncsmv2rNusEkBaNsVp" IsHidden="true" />
                 <Link Id="JDVzBgbEhevOiAdzSWXljQ" Ids="D8u0Ncsmv2rNusEkBaNsVp,P81ULaIL1DYL5ebOP4DqDZ" />
-                <Link Id="EavlfAoA60OLGmVDg4U6H8" Ids="RIO4BDajwllPaQxRFfIHmp,BGoCX3hfb9fPjNbzd1KTyd" IsHidden="true" />
                 <Patch Id="VkOxUhT7JzYLUjR5GmDadz" Name="Create" />
                 <Patch Id="HxypJakkmEWMFIf0qaOEKm" Name="Update" ManuallySortedPins="true">
                   <Pin Id="UiwlTuPJjCfLw65ky6bmdq" Name="Input" Kind="InputPin" />
                   <Pin Id="SQcO4Mk4tCXNKUEFmMZqz0" Name="Output Size" Kind="InputPin" />
                   <Pin Id="CcYKE57jMfkMg3F2dKGNVg" Name="Grid" Kind="InputPin" />
-                  <Pin Id="RIO4BDajwllPaQxRFfIHmp" Name="Geo Resolution" Kind="InputPin" />
                   <Pin Id="LcjPGX2lpNeM9lNkXslyRo" Name="Output" Kind="OutputPin" />
                   <Pin Id="MMFD3U4ruGtQBYvbDvLWx3" Name="Has Changed" Kind="OutputPin" />
                   <Pin Id="BnsfgSBfHoqLljz7AeA2Ub" Name="Force" Kind="InputPin" />
@@ -1558,8 +1544,6 @@
                 <Link Id="UoUXGVf7XBzOmVpsEOyj7X" Ids="TyWONwqrX7gOQ7NRljVyhI,G9UFA42dWlIPJFEpumVhAo" />
                 <Link Id="CrnudikAerfPZQsT5owsFM" Ids="G9UFA42dWlIPJFEpumVhAo,Epw9B27E0o7PbCG40NAd3I" />
                 <Link Id="OZj0PM9jnPRPlgyOustS38" Ids="G9UFA42dWlIPJFEpumVhAo,LKWDG4OflwnLdcLxeQO1wL" />
-                <Link Id="FLHRwkthrHpNoYushK2Ouf" Ids="BGoCX3hfb9fPjNbzd1KTyd,P1rPM3kk0f8MSgmN1GFBCV" />
-                <Link Id="N6pHOq5Qf1iNBWZ7hTU0Xj" Ids="P1rPM3kk0f8MSgmN1GFBCV,HUwAD2S2pqMOPkzWBIgF6C" />
                 <Link Id="CUpcfjfanqCP5qLVtoQ0Vu" Ids="D8u0Ncsmv2rNusEkBaNsVp,VTZvG8s7i3NPTTW551Dzox" />
                 <Link Id="FgNgd9j9QVGNnyL1lE2xUk" Ids="Dscc0EXDfIHOa7H3MyCJ8n,VLTb9ysb41wNkycNqdVDBa" IsFeedback="true" />
                 <Link Id="K4HZ8v8bi2rNfqeZnCVqPw" Ids="FOana86ZGgTNlxNaLPOi4w,VLTb9ysb41wNkycNqdVDBa" />
@@ -1604,7 +1588,6 @@
                   <ControlPoint Id="Fzic3KV6HqAMEmrfzsgmH5" Bounds="855,1023" />
                   <ControlPoint Id="QchJjoTMcLjNNrGIPzdYBQ" Bounds="1041,394" />
                   <ControlPoint Id="Uw9u3s3hzgWOUAteAu3i46" Bounds="1186,394" />
-                  <ControlPoint Id="SBMn1eH939lLrDaneTtMda" Bounds="1297,394" />
                   <Node Bounds="841,502,545,483" Id="P0XQn2OTMonMd3DxHrjriL">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -1972,10 +1955,8 @@
                     </p:TypeAnnotation>
                   </Pin>
                   <Pin Id="V3H3jE1vR7nMfqK7mL5OZD" Name="Output Size" Kind="InputPin" />
-                  <Pin Id="NBY7mimW5cuL667u2RGz3X" Name="Geo Resolution" Kind="InputPin" />
                 </Patch>
                 <Link Id="PfCzlcH7Oh7LnAoUpaoteu" Ids="V3H3jE1vR7nMfqK7mL5OZD,Uw9u3s3hzgWOUAteAu3i46" IsHidden="true" />
-                <Link Id="HgZHwoFkE38LLHVEPPo2a9" Ids="NBY7mimW5cuL667u2RGz3X,SBMn1eH939lLrDaneTtMda" IsHidden="true" />
                 <Link Id="J51v9KIHtcLOdvdq6xhNez" Ids="QchJjoTMcLjNNrGIPzdYBQ,MWDb3ETOjiEOZTk2XaoIi2" />
                 <Link Id="C9KMLNb7tfSNMRllTIpW4b" Ids="SPyDS4HRaUbMQK61pI1lsj,JOpK8BfMDHdNAcFadoirai" />
                 <Link Id="Mr1gu1VuiEPMLTg5fYTUck" Ids="InmAuZYyqmhN6xGMbNR1X5,CCQJJaLkGlwOdpS5rVQCHU" />
@@ -1993,7 +1974,6 @@
                 <Link Id="NXq67td6Dx9NbXYJZfXgMQ" Ids="TjT8N1rSIBrOhb4y8kvPZ4,VIM326b8GfaMAZBGpVS75N" />
                 <Link Id="LwBk5UjoixyLQP3AiDiID8" Ids="Uw9u3s3hzgWOUAteAu3i46,GbjVy7f5dQqPy9iAFsVM91" />
                 <Link Id="UUX0wzXN101OImsp96iDvd" Ids="JSN6AW3UTs8MxCx3aqCvjq,Is4HJyCpKwsMk8sWxbQKzd" />
-                <Link Id="QoR4V6F0skqLm02sjjmRQW" Ids="SBMn1eH939lLrDaneTtMda,HZ7IqIJcXXuQJtwSb6HunC" />
                 <Link Id="PeMv1guAhEoM6fwCztpL6Q" Ids="Uw9u3s3hzgWOUAteAu3i46,RFMa9tTZNQmO0wCHGnK7lq" />
                 <Link Id="QFdgYw86t4ZPEBUoH81Wm0" Ids="MADwKYSbp1FOKuMOiuzLFb,E1VbTbzCFRXMTq6uyveGK9" IsFeedback="true" />
                 <Link Id="Bgmg3DGRi73Mprp5R552IJ" Ids="CflcMbzPfWiNEDvmsingwi,MADwKYSbp1FOKuMOiuzLFb" />
@@ -2015,7 +1995,6 @@
                 <Link Id="EhYH90AKp4cMbZ7Z7I5U1E" Ids="BrsJQE8PtJbOmjwnJgrfyi,Ln7nLsJptnZMpZKgIePRML" />
                 <Link Id="TgGLPqYfimDQToCPJBDoux" Ids="Uw9u3s3hzgWOUAteAu3i46,Ok414lA3gXHQLhy09gSEwa" />
                 <Link Id="JA1UkMOJ6iMMpYXnX6W81P" Ids="Uw9u3s3hzgWOUAteAu3i46,EKTr6cfTZ1uPMXDln9yV61" />
-                <Link Id="SouhY78HQJvP2ZgkyCi59F" Ids="SBMn1eH939lLrDaneTtMda,LGWsMMCapUDOiXKtB3Beyo" />
                 <Link Id="JatxxKK4vAwOVfXMOdT6GH" Ids="FgHvKouWUofLDhx37ayY3P,MmQqPs0Ml8MMRKiFQLTBps" />
                 <Link Id="UP0EMfSK3rUPuxzUS4lDIU" Ids="RN5leKGtEfFNuz2TrsueQ0,EF1FnsSGIrVQJMGzes3cgg" />
                 <Link Id="BISaZCGRj9hL9ZaDZQ6h5R" Ids="Ca9bVwRZBmNO6a9NJjjW8i,Sxkz4xowDcVOyXYv414GlM" />
@@ -2075,7 +2054,6 @@
           <Link Id="PdxjXAHcHzAPQaKCNhqORF" Ids="Sj0EdUWeIMWQHW6nrHQbtn,IXVA6sJL1mKPZOHR14NnCu" />
           <Link Id="DGBWs4rcIzCMn6E0ZkGuID" Ids="BKeyaQb7VXLNUGVPfQ0iKm,BIDkZnpyhu4Mvm1cSrhgyA" />
           <Link Id="Lzow3zWgwsZPEsI5ttyHx2" Ids="S7MMF6rLUnwOsoJhEGKXdZ,Jo9bBXXeWrjOq09M7OKYXd" />
-          <Link Id="T0lZ5lFCGwrMCBcNHWHN05" Ids="LNhCB6kusHXN4iZSalVyom,HDfrCEdrSthNJpMco2zB3x" />
           <Link Id="Uj9pVUF8JzdLzjriu5PXNy" Ids="AD5uNCryXohP1dvWoRxpaC,V1NUhyxavmfQAf5liUYfzp" />
           <Link Id="IUGWui59AaRP7y2eR1fT8k" Ids="V1NUhyxavmfQAf5liUYfzp,KLTKpKl64tHLMFAnlECXzM" />
           <Link Id="MEJx53YehmfLV8SkIIIzVn" Ids="DApUKSFdk59PANk3maYuUh,PbBD9mh1zEiO6zWq4Up6HE" />
@@ -2141,7 +2119,6 @@
           <Link Id="QLegJpXvUksPw05cCNjpnj" Ids="A9Oz0VwmOvAPLX3tKjpYod,IdWv2WOERMgMnQFTX1rbNJ" />
           <Link Id="Tb8jyNAhUS8NT2nJoB6zza" Ids="NeH0y2VZY4XNX3lwtD7DYL,DcaircymxNnOKvIYnSypLA" />
           <Link Id="H3Z1kMMTyaRNfuJCBHzACy" Ids="SZTJ6dPEUgANNCr0dloQFd,IQUGavlQsuGPdpKAZnHzhP" />
-          <Link Id="VX0Kzhqrdk3NiqHCDU4Ssb" Ids="LNhCB6kusHXN4iZSalVyom,C3Sh4iwHqv9Na8K4oefcEH" />
           <Link Id="KLro7e4LG51LWvRApQ9n2r" Ids="SZTJ6dPEUgANNCr0dloQFd,BMWeyNycqziMPrIGhiOFKd" />
           <Link Id="KwwMEEdMjPmNiGAXDhXWlQ" Ids="Ucrhcs7vwJoM1rBfYwBmxA,Lxtaur2vScsOusu17tluTl" />
           <Link Id="JIbVeunn7UHN7Z8vfrXLrN" Ids="OUbqVdaEpraPZfKWhcfyVW,BrEujvBLmU9P0MG5ZpmXxO" />
@@ -2151,7 +2128,6 @@
           <Link Id="TwogAXWdTzLN8xURP1XWld" Ids="S7MMF6rLUnwOsoJhEGKXdZ,TANKt3HgEmvNLnFwQudyjP" />
           <Link Id="QfZWPAgEddmMmzuDi0dhg0" Ids="KiN0H4SfbxaLPVR2EAeJR5,SDhq4qNYHzJOtwbf5yQsDq" />
           <Link Id="R8RstKNYrbFN2G6oQZERIU" Ids="FhxM240ND1PPbo2NDnkDmk,NigorRYW1UmPkTGEJ1jkN2" />
-          <Link Id="OOjuGPE0hnTO1L9kjCbWXQ" Ids="LNhCB6kusHXN4iZSalVyom,BvafWSpbnqGMOVxZctJivr" />
           <Link Id="NYP9oeEGT2fQdQvjEcHJ1L" Ids="TyDJ4bPYIwyOObr249u6ca,QSjrhLoSCYfNrWRQB1cVgq" />
           <Link Id="CgL0HueXxeWPEyx9tRCThV" Ids="DUtiEZDi1GCLToSqo2gmOo,Tkx2vu4jq6pQShU6A7NXiG" />
           <Link Id="IQBdJ9PQVzIORZzhCtMicg" Ids="SJNlI3krOCEP29kHVCbHIo,Q8JUx52ovmXMhAJm6YLgI9" />
@@ -2163,7 +2139,6 @@
           <Link Id="LhLJd6fBOTOMr1xrHNInva" Ids="FXWOVUylj1qQYZDnUKDitr,G80JaTVvU30NDMZ92PONlU" />
           <Link Id="GUnITnxa1qvPnm19ZQzbQ8" Ids="QDIu2jejLqFPdDB2eHxsOD,QoIrxGLysvRMKsx7gZ8u9W" />
           <Link Id="OonzRvhAyKcLvdjjN416J2" Ids="IsMRnN6SptLNoOMPnIDkIv,BcXCjDf2mU2QMqxSdbf1Tx" />
-          <Link Id="LDmATs47YEFNRJA9FYqeZh" Ids="LNhCB6kusHXN4iZSalVyom,VITMAkaI3OgLK7xxcShtpn" />
           <Link Id="KlNijqX9CdwPeXnzoyvRV8" Ids="EtNlQWohjStPIe3ABihZOJ,HmON0byg9x2NSDVtEubO5R" />
           <Link Id="LxpowGwN6vgLnUH4HJ5o1z" Ids="QERUUVs8EICN4DzrFLMDzZ,KMudPBSHsvoMJW2jE4wLjg" />
         </Patch>
@@ -2766,11 +2741,11 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="M6NvAj6qRvsQAoDvBW3D8o" Location="VL.Stride" Version="2024.6.3" />
+  <NugetDependency Id="M6NvAj6qRvsQAoDvBW3D8o" Location="VL.Stride" Version="2024.6.5" />
   <DocumentDependency Id="BuMrUf9gpl2QIPLfuGt1L1" Location="./VL.GridEditor.vl" />
   <DocumentDependency Id="Sfn9KK70zCvMqsXirMZHTn" Location="./VL.GuiState.vl" />
   <DocumentDependency Id="K2xYAUp7FIOOcmKwgyNxx1" Location="./VL.Mapper.Screen.vl" />
-  <NugetDependency Id="V2qns942QmrMh18d6s1nsG" Location="VL.Skia" Version="2024.6.3" />
+  <NugetDependency Id="V2qns942QmrMh18d6s1nsG" Location="VL.Skia" Version="2024.6.5" />
   <DocumentDependency Id="LbVYzjkhTvHOt4Qv6oR6kz" Location="./VL.Mapper.Warp.vl" />
-  <NugetDependency Id="N36UI4PCGuqPr6CERYMs8x" Location="VL.Stride.TextureFX" Version="2024.6.3" />
+  <NugetDependency Id="N36UI4PCGuqPr6CERYMs8x" Location="VL.Stride.TextureFX" Version="2024.6.5" />
 </Document>

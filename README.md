@@ -24,16 +24,18 @@ https://youtu.be/nU4qOoorldA
 ```
 nuget install VL.Mapper
 ```
-
-### Notes
-- Pretty thoroughly tested but mapper still could have bugs. If you disable the mapper node and only use the cache and player nodes it should be very stable.
-- Tested with VVVV 5.2 but should work with 6.x too.
+[Managing nugets](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html)
 
 ### Changelog
+- 0.2.1 - Minor bugfix
 - 0.2.0 - Keep grid shape when changing subdivisions
 - 0.1.2 - Fixed saving/loading not working on some systems
 - 0.1.1 - Help patch
 - 0.1.0 - Initial release 
+
+### Notes
+- Pretty thoroughly tested but mapper still could have bugs. If you disable the mapper node and only use the cache and player nodes it should be very stable.
+- Tested with VVVV 5.2 but should work with 6.x too.
 
 ### ToDo
 - Soft edge mask shader uses unnecessary amount of RAM
