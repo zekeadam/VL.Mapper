@@ -27,6 +27,7 @@ nuget install VL.Mapper
 [Managing nugets](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html)
 
 ### Changelog
+- 1.0.0 - Minor bugfix
 - 0.2.1 - Minor bugfix
 - 0.2.0 - Keep grid shape when changing subdivisions
 - 0.1.2 - Fixed saving/loading not working on some systems
