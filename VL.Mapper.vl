@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="GDJBjx2xAZ9OK0ZxyC9GUh" LanguageVersion="2024.6.5" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="DWPlP14CyrJPEUOeyouA4e" LanguageVersion="2024.6.5" Version="0.128">
   <NugetDependency Id="QgAKPzh5uDtQLWAtVYa3kJ" Location="VL.CoreLib" Version="2024.6.5" />
   <Patch Id="JZfmlMsum0OONBx3d1mKk1">
     <Canvas Id="Oo1nRRUjTh7OjSXIr0nLzW" DefaultCategory="Mapper" CanvasType="FullCategory">
@@ -8066,13 +8066,15 @@
                     <Patch Id="NkMGleWrECvQXf2Wv6o3fn" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="CWJErhFI5btOWj5IORZ4lz" Name="Dispose" ManuallySortedPins="true" />
                     <Node Bounds="1563,959,83,19" Id="LVfUDFqRSPlM9IpRHqbPTR">
-                      <p:NodeReference LastCategoryFullName="Mapper.Cache" LastDependency="VL.Mapper.vl">
+                      <p:NodeReference LastCategoryFullName="Stride.Textures" LastDependency="VL.Stride.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <CategoryReference Kind="Category" Name="Cache" NeedsToBeDirectParent="true" />
-                        <Choice Kind="OperationCallFlag" Name="TextureReader" />
+                        <CategoryReference Kind="Category" Name="Textures" NeedsToBeDirectParent="true" />
+                        <Choice Kind="ProcessAppFlag" Name="TextureReader" />
                       </p:NodeReference>
+                      <Pin Id="M5lhpBkipw7MS4gVvrj7hR" Name="Node Context" Kind="InputPin" IsHidden="true" />
                       <Pin Id="Nue7jvg1elaLYJNCgLufVo" Name="File Path" Kind="InputPin" />
                       <Pin Id="DlkgGPEwJLaLCecpcVEI3P" Name="Output" Kind="OutputPin" />
+                      <Pin Id="BOfn1MREs7WNtQ5PbPirUy" Name="Is sRGB" Kind="InputPin" DefaultValue="False" />
                     </Node>
                     <Node Bounds="1656,958,63,19" Id="NLHPLHIFq1XLtzTMfBiJbC">
                       <p:NodeReference LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
@@ -8213,41 +8215,10 @@
               <Pin Id="BKFoAabAnqTM1I90VrWt9u" Name="Result" Kind="OutputPin" />
             </Node>
             <Overlay Id="CpQxBVY42bLLbq2IINuO1c" Name="Read" Bounds="1447,569,316,503" />
-            <!--
-
-    ************************ TextureReader (Internal) ************************
-
--->
-            <Node Name="TextureReader (Internal)" Bounds="1793,793,107,82" Id="R4FihDaQxjFL8hy428mrvx">
-              <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
-                <Choice Kind="OperationDefinition" Name="Operation" />
-              </p:NodeReference>
-              <Patch Id="DILRO3f4X0BPHYBV22uHXH">
-                <Node Bounds="1805,825,83,19" Id="E0NmgIroMbgNh9lYE8Nyp5">
-                  <p:NodeReference LastCategoryFullName="Stride.Textures" LastDependency="VL.Stride.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="TextureReader" />
-                  </p:NodeReference>
-                  <Pin Id="Ucfjsfhtp7NQdFDR53CFB0" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                  <Pin Id="L78XZDrr7GvNQrsDzq89cq" Name="File Path" Kind="InputPin" />
-                  <Pin Id="AC6zW9wj52ALObd7YjfB3e" Name="Is sRGB" Kind="InputPin" DefaultValue="False" />
-                  <Pin Id="DvMeB4iGdCpNYnkpsJCZHd" Name="Output" Kind="OutputPin" />
-                </Node>
-                <Pin Id="JCLTiMxpwd2MPurpkUkwdX" Name="File Path" Kind="InputPin" />
-                <ControlPoint Id="CWJOrLmmdyvNJ0B3LnyAvO" Bounds="1807,811" />
-                <Link Id="KRrsFlADOrkLNavGtV8epM" Ids="JCLTiMxpwd2MPurpkUkwdX,CWJOrLmmdyvNJ0B3LnyAvO" IsHidden="true" />
-                <Link Id="BSJ0b1cDgtbQSmIlmgWvhp" Ids="CWJOrLmmdyvNJ0B3LnyAvO,L78XZDrr7GvNQrsDzq89cq" />
-                <Pin Id="E44VhTM7TfuMw86cn7VGAf" Name="Output" Kind="OutputPin" />
-                <ControlPoint Id="KkESsHAEA65Nde8PuGAkT6" Bounds="1807,858" />
-                <Link Id="OvHuRR6QsaMOiLbjioxi2q" Ids="KkESsHAEA65Nde8PuGAkT6,E44VhTM7TfuMw86cn7VGAf" IsHidden="true" />
-                <Link Id="DXvyko7CSu2O4tHZpwlC5r" Ids="DvMeB4iGdCpNYnkpsJCZHd,KkESsHAEA65Nde8PuGAkT6" />
-              </Patch>
-            </Node>
           </Canvas>
           <ProcessDefinition Id="RrY0OTDkm3pNmjw5di5Sxd">
             <Fragment Id="T5e2L9yEO5bOOzjXs8wnYZ" Patch="PW3aktkFITZOGVVP6b8PK9" Enabled="true" />
             <Fragment Id="O64HHD9I49vLZ8QDpryrJ7" Patch="FI5qVJz6DC8OzE0W6ye2v5" Enabled="true" />
-            <Fragment Id="PSRPlubY3ayMXQtuSr7q9f" Patch="R4FihDaQxjFL8hy428mrvx" />
           </ProcessDefinition>
           <Link Id="VHcsEJSUEcWMw5vHEnXm79" Ids="PAXsLDFn81RPwiobBiIoKb,OGyL3Q6POr7LB7T5yEZtjQ" IsHidden="true" />
           <Link Id="Vw83SrlzXz1NjhOJ7D2BOc" Ids="ShdS5f6UZ73MdxIGXxjOsS,GWcMmcyOx04PCGfik0t9Oc" IsHidden="true" />
